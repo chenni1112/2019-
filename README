@@ -1,7 +1,10 @@
- 去掉素材尺寸为空，行业id 有多值的记录;商品id 为-1 和行业id 为-1 的变成0  static_process.py
+初赛59名 复赛122名
+初赛代码：
+去掉素材尺寸为空，行业id 有多值的记录;商品id 为-1 和行业id 为-1 的变成0  static_process.py
+操作数据和静态数据，只保留有完整一天曝光的数据 static_data_with_operation_data-3.py
+然后统计每个id 的曝光值 get_five_exposure_count.py
+得到每个id 的曝光均值 get_five_exposure_count_average.py
+预测：lgb_without_price.py
+后续单调性处理： lgb_v4_monotonicity_with_old.py
 
- 操作数据和静态数据，只保留有完整一天曝光的数据 static_data_with_operation_data-3.py
- 然后统计每个id 的曝光值 get_five_exposure_count.py
- 得到每个id 的曝光均值 get_five_exposure_count_average.py
- 预测：lgb_without_price.py
- 后续单调性处理： lgb_v4_monotonicity_with_old.py
+复赛代码：
